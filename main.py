@@ -1,6 +1,7 @@
+__authors__ = 'Afia Azam and Javieria Atiq'
+
 from PyQt4.QtGui import *
 from PyQt4.QtCore import *
-
 from my_gui import Ui_MainWindow
 from iron_rich_foods import foods
 
@@ -38,7 +39,6 @@ class MyMainGui(QMainWindow, Ui_MainWindow):
             self.pushButton_expand_collapse_tree.setText('Expand Categories')
             icon.addPixmap(QPixmap(':/icons/expand.png'))
         self.pushButton_expand_collapse_tree.setIcon(icon)
-
 
     def update_tree(self):
         '''Updates the amount of iron in each food item in the tree
@@ -150,7 +150,6 @@ class MyMainGui(QMainWindow, Ui_MainWindow):
             icon.addPixmap(QPixmap(':icons/high-hemoglobin.png'))
 
         self.toolButton_anemia_icon.setIcon(icon)
-
 
     def anemia_type(self):
         """Displays symptoms of anemia according to its severity."""
