@@ -1,0 +1,21 @@
+<RCC>
+  <qresource>
+    <file>icons/conversion.png</file>
+    <file>icons/symptoms.png</file>
+    <file>icons/diagnosis.png</file>
+    <file>icons/high-hemoglobin.png</file>
+    <file>icons/gui-icon.png</file>
+    <file>icons/hemoglobin-level.png</file>
+    <file>icons/gender.png</file>
+    <file>icons/food-amount.png</file>
+    <file>icons/normal.png</file>
+    <file>icons/mild-anemia.png</file>
+    <file>icons/severe-anemia.png</file>
+    <file>icons/iron-rich-foods.png</file>
+    <file>icons/expand.png</file>
+    <file>icons/collapse.png</file>
+    <file>icons/cc-license.png</file>
+    <file>icons/iib-logo.png</file>
+    <file>icons/email.png</file>
+  </qresource>
+</RCC>
